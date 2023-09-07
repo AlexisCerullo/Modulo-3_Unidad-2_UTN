@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Integradora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="img/snes-icon.png">
+</head>
+
+<body>
+    <div class="color-nav">
+        <div class="holder">
+            <header>
+                <a href="index.html"><img src="img/snes-controller.png" alt=""></a>
+                <h1>Game Dev Studio</h1>
+            </header>
+            <nav>
+                <ul>
+                    <a href="index.html" class="borde-izquierdo">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="juegos.html">
+                        <li>Juegos</li>
+                    </a>
+                    <a href="nosotros.html">
+                        <li>Nosotros</li>
+                    </a>
+                    <a href="blog.html">
+                        <li>Blog</li>
+                    </a>
+                    <a href="empleos.html" class="activo">
+                        <li>Empleos</li>
+                    </a>
+                    <a href="contacto.html" class="borde-derecho">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main class="holder">
+        <div class="empleos">
+            <div class="empleos-contenido">
+                <div class="empleos-titulo">
+                    <h1>Trabaja con nosotros!</h1>
+                    <h3>Estamos en busqueda de personal afines con nuestras necesidades de nuestro proyecto actual.</h3>
+                </div>
+                <form action="">
+                    <p>
+                        <label for="nombre-y-apellido">Nombre y Apellido</label>
+                        <input type="text" name="" id="nombre-y-apellido">
+                    </p>
+                    <p>
+                        <label for="empleo">
+                            <p class="seleccion">Seleccione el empleo al que quiere aplicar</p>
+                            <div class="selectores">
+                                <div>
+                                    <div>
+                                        <input type="radio" name="posicion" id="actor-de-doblaje">
+                                        <label for="actor-de-doblaje">Actor/Actriz de doblaje</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="posicion" id="artista-2d">
+                                        <label for="artista-2d">Artista 2D</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="posicion" id="artista-3d">
+                                        <label for="artista-3d">Artista 3D</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="posicion" id="ingenierio-en-sistemas">
+                                        <label for="ingenierio-en-sistemas">Ingeniero en Sistemas</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="posicion" id="ingenierio-en-sonido">
+                                        <label for="ingenierio-en-sonido">Ingeniero en Sonido</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </p>
+                    <p class="curriculum">
+                        <label for="curriculum">Subi tu curriculum acá!</label>
+                        <input type="file" id="curriculum">
+                    </p>
+                    <p>
+                        <input type="submit">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Diseño por Alexis Cerullo - &copy 2023</p>
+    </footer>
+</body>
+
+</html>
